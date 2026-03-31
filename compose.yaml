@@ -1,0 +1,46 @@
+services:
+  frontend:
+    build: ./React-Frontend
+    ports:
+      - "8080:80"
+    networks:
+      - frontend-backend
+
+  backend:
+    build: ./DotNet-Backend
+    ports:
+      - "5000:8080"
+    networks:
+      - frontend-backend
+      - backend-database
+    environment:
+      DB_HOST: database
+      DB_NAME: appdb
+      DB_PORT: 3306
+      DB_USER: root
+      DB_PASSWORD_FILE: /run/secrets/db_password
+    secrets:
+      - db_password
+
+  database:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD_FILE: /run/secrets/db_password
+      MYSQL_DATABASE: appdb
+    volumes:
+      - dbdata:/var/lib/mysql
+    networks:
+      - backend-database
+    secrets:
+      - db_password
+
+secrets:
+  db_password:
+    file: ./db_password.txt
+
+networks:
+  frontend-backend:
+  backend-database:
+
+volumes:
+  dbdata:
