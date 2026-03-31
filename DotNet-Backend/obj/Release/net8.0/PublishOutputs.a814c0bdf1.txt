@@ -1,0 +1,16 @@
+/home/mkhaled/Docker-Ansible-Project/DotNet-Backend/bin/Release/net8.0/publish/API
+/home/mkhaled/Docker-Ansible-Project/DotNet-Backend/bin/Release/net8.0/publish/appsettings.Development.json
+/home/mkhaled/Docker-Ansible-Project/DotNet-Backend/bin/Release/net8.0/publish/appsettings.json
+/home/mkhaled/Docker-Ansible-Project/DotNet-Backend/bin/Release/net8.0/publish/API.dll
+/home/mkhaled/Docker-Ansible-Project/DotNet-Backend/bin/Release/net8.0/publish/API.runtimeconfig.json
+/home/mkhaled/Docker-Ansible-Project/DotNet-Backend/bin/Release/net8.0/publish/API.pdb
+/home/mkhaled/Docker-Ansible-Project/DotNet-Backend/bin/Release/net8.0/publish/Microsoft.EntityFrameworkCore.dll
+/home/mkhaled/Docker-Ansible-Project/DotNet-Backend/bin/Release/net8.0/publish/Microsoft.EntityFrameworkCore.Abstractions.dll
+/home/mkhaled/Docker-Ansible-Project/DotNet-Backend/bin/Release/net8.0/publish/Microsoft.EntityFrameworkCore.Relational.dll
+/home/mkhaled/Docker-Ansible-Project/DotNet-Backend/bin/Release/net8.0/publish/Microsoft.OpenApi.dll
+/home/mkhaled/Docker-Ansible-Project/DotNet-Backend/bin/Release/net8.0/publish/MySqlConnector.dll
+/home/mkhaled/Docker-Ansible-Project/DotNet-Backend/bin/Release/net8.0/publish/Pomelo.EntityFrameworkCore.MySql.dll
+/home/mkhaled/Docker-Ansible-Project/DotNet-Backend/bin/Release/net8.0/publish/Swashbuckle.AspNetCore.Swagger.dll
+/home/mkhaled/Docker-Ansible-Project/DotNet-Backend/bin/Release/net8.0/publish/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/mkhaled/Docker-Ansible-Project/DotNet-Backend/bin/Release/net8.0/publish/Swashbuckle.AspNetCore.SwaggerUI.dll
+/home/mkhaled/Docker-Ansible-Project/DotNet-Backend/bin/Release/net8.0/publish/API.deps.json
